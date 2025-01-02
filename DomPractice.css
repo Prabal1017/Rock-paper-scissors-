@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: Arial;
+  margin-left: 50px;
+  text-align: center;
+}
+
+.buttons {
+  background-color: transparent;
+  border: 3px solid white;
+  height: 120px;
+  width: 120px;
+  border-radius: 60px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.button-images {
+  height: 50px;
+}
+
+.score {
+  margin-top: 60px;
+}
+
+.reset-button {
+  color: white;
+  font-weight: 200;
+  border-radius: 20px;
+  padding: 7px 15px;
+  font: 15px;
+  margin-top: 50px;
+  background-color: rgb(25, 25, 25);
+  border:  solid 2px white;
+}

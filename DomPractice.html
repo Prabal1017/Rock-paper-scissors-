@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Rock Paper Scissors</title>
+
+  <link rel="stylesheet" href="DomPractice.css"> 
+
+</head>
+
+<body>
+  <h2 style="margin-bottom:50px ;">Rock Paper Scissors</h2>
+
+  <button class="buttons" onclick="
+   playGame('Rock')
+   ">
+  <img class="button-images" src="Images/rock-emoji.png"> 
+  </button>
+
+  <button class="buttons" onclick="
+   playGame('Paper')
+   ">
+  <img class="button-images" src="Images/paper-emoji.png"> 
+  </button>
+
+  <button class="buttons" onclick="
+   playGame('Scissors')
+   ">
+  <img class="button-images" src="Images/scissors-emoji.png"> 
+  </button>
+
+  <h3 class="result"></h3>
+
+  <p class="gameStats"></p>
+
+  <p class="score"></p>
+
+  
+
+
+  <button class="reset-button" onclick="
+
+//localStorage.removeItem('score')
+
+score.wins = 0
+score.loses = 0
+score.ties = 0
+
+console.log('resetScorePressed')
+
+console.log(score)
+
+document.querySelector('.score').innerHTML= 
+      `Wins: ${score.wins} Losses: ${score.loses} Ties: ${score.ties}`
+
+
+">Reset Score</button>
+
+  <script src="DomPractice.js">
+
+  </script>
+</body>
+
+</html>
