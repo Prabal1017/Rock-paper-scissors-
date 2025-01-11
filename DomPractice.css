@@ -24,7 +24,7 @@ body {
   margin-top: 60px;
 }
 
-.reset-button {
+.reset-button, .auto-play-button {
   color: white;
   font-weight: 200;
   border-radius: 20px;
